@@ -10,11 +10,11 @@ script:
   - "script/test"
 deploy:
   provider: s3
-  access_key_id: AKIAJKACEEHWI3XUQ26Q
+  access_key_id: AKIAJ76RZMF4SIG33DMQ
   secret_access_key:
-    secure: cfufxLZEbh9ItLXxVTgfHWf0jSpiaZZonKQRJr+t9bHCKLQCTsmo8d4YVqf9bo6PqzC5q9QPwU7qFGtfRb1pqPWOdw92d4hbPdwZWFftqecFriihTQd3nz+zv0Qu+pt2kNHLTmvprOI/1Y6kS9sxp2KDgS/U6oZT/sbHaC0SsMmmCRjLFpGFNakGxv9YGWc4IiINWhkpEEQ5R4XCq+muIJ3gWuqaadP09sK+X0EX4OEnojyEvoKMKrMs5NunVWDBWiSZVqBGDNzJsAsMPQ/svkPvqdav2X4uV64tCDOfpuBpbO7tG6PkFJSdu7WkQBDlmwCCtnwp01W7Hzchb38/XpvTIUvmHH35yojMVw7FIqNraH4tzmEHl/bTuwpb6wlXRE2urbapxHjh3CnqkkDjLsV2/65icDO2RAkkGOF6cm8DWKqOW6Z15DWJQzr+21K7v1K7KDHc9SR12l6erbXle4qy0gULGgjTO+TDjCMbA1POJA8jcB32LVETXm0H8exZG59q1yeBLDIVZsFUlZc9jqFyB+r5o/5d6AkfQAmL5DLuMpsEUrotgxCecxAjWDHnFcl36CIBeWboMuQkGXVLl2tb/GZVtRDEZ1b9RQuwvvhKzTK00AmRK/JkAPO6dmJ8PC6wzUNQDmqpXvg+Xco4LheyGTo5TNcFWnTCop1qM5M=
+    secure: erq+IffxHSmQeKHcDFPxMnCOoj6PI8g6VEBNHuhg
   region: us-west-1
-  bucket: sylvanianforest.col
+  bucket: sylvanianforest.com
   acl: bucket_owner_full_control
   on:
     repo: terrajackson/sylvanianforest
