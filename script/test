@@ -1,0 +1,23 @@
+#! /bin/bash -eu
+
+parentDir=$(cd `dirname $0`/..;pwd)
+pushd ${parentDir}
+echo "'Running in '$(pwd)'..."
+echo "Checking prereqs..."
+if [[ $(which bundle) == "" ]]; then
+echo "'bundle' executable not found!"
+exit 1
+fi
+/usr/bin/time -p bundle install
+/usr/bin/time -p bundle exec htmlproofer \
+--allow_hash_href \
+--alt_ignore /./ \
+--file-ignore /.git/ \
+--check-html \
+--check_external_hash \
+--check-opengraph \
+--log-level :debug \
+
+#--checks-to-ignore ImageCheck
+
+
