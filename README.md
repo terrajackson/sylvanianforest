@@ -1,6 +1,5 @@
 # sylvanianforest
 
-[![Build/deploy Status](https://travis-ci.com/terrajackson/sylvanianforest.svg?token=TzVsySGAhyc3qNT6bqkJ&branch=master)](https://travis-ci.com/terrajackson/sylvanianforest)
-
+[![Build Status](https://travis-ci.org/terrajackson/sylvanianforest.svg?branch=master)](https://travis-ci.org/terrajackson/sylvanianforest)
 
 [Live site](http://sylvanianforest.com)
