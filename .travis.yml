@@ -1,16 +1,16 @@
 notifications:
   email:
     recipients:
-        - we@batjackson.com
+    - we@batjackson.com
 language: ruby
 rvm:
- - 2.3.1
+- 2.3.1
 install: bundle install --jobs=3 --retry=3
 deploy:
   provider: s3
   access_key_id: AKIAJ76RZMF4SIG33DMQ
   secret_access_key:
-    secure: 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
+    secure: AxMc56BDuofkL50JOu4m5kSnL/1SsFq18tNX1GInN4LEdqfc2EFKM9c+X1v7edSB6gRKJ6Qf8Q4dU7TttBPM4/O5qOgwQNF7Nqx9rwM5Tgd9JZfLs0JgwjRaOfAAwWaHslCp+j1Hm2IIPiwZIt0a6Bm2OUks4vGCbcRuBpNka/BcGGIb/H8wt0fC13rTzEdPOe9Cbc5N8G2ciAoijw3tG3JqMJhnpoLhdSZQFq5RXFU/n975Jk1sPVkMpzyOhNX7Fwnj5Eovk6arLNHveBxEpCoV1v/P2qjmHVdpe9ah7pD1lGpks6jlJP02zcnllHuhNqZEGyRJv2J6aa99h3FWVX/iOAaxsua1sbitbi4d5SI+YdaQeIiazRp6H/VWLuf0+kl6kGCnCVDha3tzrJx+tmXBwbdac5Iwiin4BwtEWHHykqtA3UfVKIjfW5Qi3CpDYDNxDyMcnwBJJdNeQ/s0ZHhxwbMZMcWMnw9ZEzWDFxIqJBvKyd6Kpc4ffHfB6NA9cThA54tivuNz9n89GykfI8rCY1C6tdop3o2JpzPT2Hj51rKf+sm83sj/1KBpjznccm/Rd17vdPhRQnlKPe5V9fng5ozvayqqTASOv2nEQ3x0NMcL7w2qFi4ZoeSMltJuEpFLjWiES1/eg1NbpixKrjYWtJWj1vJF9CtC4SUwNJw=
   region: us-west-1
   bucket: sylvanianforest.com
   acl: bucket_owner_full_control
