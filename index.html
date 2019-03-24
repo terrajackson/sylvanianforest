@@ -46,8 +46,8 @@ li a:hover:not(.active) {
     margin-top: 200px;
 /*			height: 33%; */
 /*			width: 100%;*/;
-	margin-right: -180px;
-	width: 
+	float: right;
+	
 			
 }
 .fa {
@@ -75,12 +75,19 @@ li a:hover:not(.active) {
 .fa-flickr {
     background: #002C40;
     color: white;
+	onclick="setColor(event)";
 	}
 	
    .border {
    border:5px solid #45403E;
    border-radius: 10px;
 }	
+	
+	.searchbutton:focus {
+		background-color: #5BCAFF;
+		
+	}
+	
 </style>
 <title>Terra's Sylvanian Families</title>
 </head>
@@ -90,22 +97,23 @@ li a:hover:not(.active) {
   <tr>
     <td rowspan="2"><img src="Images/Website Logo/websitelogo.png"</td>
     <td>
-    <a href="https://www.facebook.com/TerraJacksonCA" target="_blank" class="fa fa-facebook"></a> <a href="https://twitter.com/TerraJackson_" target="_blank" class="fa fa-twitter"></a> <a href="https://www.instagram.com/terrajackson_/"  target="_blank"class="fa fa-instagram"></a> <a href="https://www.flickr.com/photos/145526060@N05/"  class="fa fa-flickr"></a></td>
+    <a href="https://www.facebook.com/TerraJacksonCA" target="_blank" class="fa fa-facebook"></a> <a href="https://twitter.com/TerraJackson_" target="_blank" class="fa fa-twitter"></a> <a href="https://www.instagram.com/terrajackson_/"  target="_blank"class="fa fa-instagram"></a> <a href="https://www.flickr.com/photos/145526060@N05/"  class="fa fa-flickr"></a></td> 
+	  
   </tr>
   <tr>
-    <td width="100%" id="search">
-		
+    <td width="100%">
+<div id="search">	
 		
 		<!-- Begin siteLevel HTML Searchbox Code -->
 <form method="get" action="https://www.sitelevel.com/query" accept-charset="utf-8">
   <div class="sl_search_box">
     <input type="hidden" name="crid" value="8mvrh0uz"/>
-    <input type="text" name="query" size="30"/>
-    <button type="submit">Search</button>
+    <input type="text" name="query" size="35"/>
+    <button class="searchbutton" type="submit">Search</button>
   </div>
 </form>
 <!-- End siteLevel HTML Searchbox Code -->
- 
+		</div>
       </td>
   </tr>
 </table>
