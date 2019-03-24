@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #5BCAFF;
+    margin: 0;
+}
+#header {
+    background-color: #45403E;
+    padding: 0px;
+    padding-left: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BD5229;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+li a:hover:not(.active) {
+    background-color: #5BCAFF;
+}
+.active {
+    background-color: #5AD427;
+}
+#search {
+    float: right;
+    margin-top: 200px;
+/*			height: 33%; */
+/*			width: 100%;*/;
+	float: right;
+	
+			
+}
+.fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    float: right;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-flickr {
+    background: #002C40;
+    color: white;
+	}
+	
+   .border {
+   border:5px solid #45403E;
+   border-radius: 10px;
+}	
+	
+	.searchbutton:focus {
+	 background-color: #5BCAFF;
+		
+	}
+	
+	
+	.searchbutton:active {
+	 background-color: #5BCAFF;
+		
+	}
+
+
+.content {
+	background-color: #5BCAFF;
+}	
+	
+.section {
+  background-color: #45403E;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  float: left; 
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border:5px solid #45403E;
+  border-radius: 10px;
+  text-align: center
+}
+
+.group {margin-left: 100px
+
+		}
+
+#new {
+  clear: left
+}		
+				
+ .border {
+   border:5px solid #45403E;
+   border-radius: 10px;
+
