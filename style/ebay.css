@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.article {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  background-color:#45403E;
+  height: 200px;
+  color: #FFFFFF:align-self;
+  border:5px solid #45403E;
+  border-radius: 10px;
+  color: #FFFFFF;
+ }
+
+
+/* unvisited link */
+.article a:link {
+  color: #FFDB4C;
+}
+
+/* visited link */
+.article a:visited {
+  color: #5BCAFF;
+	}
+
+/* mouse over link */
+.article a:hover {
+  color: #BD5229;
+}
+
+/* selected link */
+.article a:active {
+  color: #5AD427;
+}

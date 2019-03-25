@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.section {
+  background-color: #45403E;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  float: left; 
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border:5px solid #45403E;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+
+.group {margin-left: 100px
+
+		}
+
+#new {
+  clear: left
+}
+
+.update {
+	color: #FFFFFF;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-left: 50px
+	}
+
+.family {
+	background-color: #45403E;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+	padding: 1px;
+	color: #FFFFFF
+	}
+
+
+
