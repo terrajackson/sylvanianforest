@@ -8,13 +8,7 @@ rvm:
 install: bundle install --jobs=3 --retry=3
 script:
 - echo TEST
-deploy:
-  provider: s3
-  region: us-west-1
-  bucket: sylvaniaforest.com
-  acl: bucket_owner_full_control
-  access_key_id: AKIA5BOWBE22FGCAV4HN
-secret_access_key:
-  secure: WB+Gl8AyPOPxOPHawyc1JQpVXZcEY0ML6i64CAEohUFPb8VXr7J6KugsE0XT09XRj/jldzg2LH6cHA3SxIGHCnKhFmRTRXXlsZlOt+9Izc4/wniXc4KtBb8f/MSvFixSDNatA224B6gbyxEBfvzRSjBBVXbn9TlwW9rDWbbpiWf9hqyRzv8av/hhw1UMZb0nmCwPj7SKX155g1NJNfLRW9pVWlYaNKLIRk8muSOzLzc4IQlPAnr6ijazRfh4mn8tw46I7mwcvKlDphmGI4fAV7yInrgRrLJhJuHK/w6CRuLKrH9beoDx41dnrNS2jZPiifXQpmZF6rqCgqbKTZ444nZd4FyJuIyeg9bMmuEGvCTc3tShq6ZbWuVHSjL+qaOO/rggHOL38dvVlsjsfp11hS9bEW3NSiGxU5UDtHXs4MjfjnHszSCZST9VwtYq44xlW2mhYhBDOeV6EzXCcDz4oGzfZcTAKKhYPYRYovbJarSkmV0ljNyPNyziWAaoUvId0ZzxNtJKC0XMcqyR4xt62vujk1ItIavgo1ur5hCepRJb0smthGfTwbft4kSZzfpkxOxJHfcfXgHlAYJUNnkBtbo39L/eSsVSYntXbsV9VWcl+PdtxM+0ahrE8pkfw7RVBPj8rK7S/3WneDqbNhaosxt0f2VbY+6QUoX/r1Q0DTY=
-  on:
-    repo: terrajackson/sylvanianforest
+deploy: 
+before_install:
+- openssl aes-256-cbc -K $encrypted_dcabf2bf7c8e_key -iv $encrypted_dcabf2bf7c8e_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
