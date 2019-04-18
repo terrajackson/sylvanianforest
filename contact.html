@@ -64,7 +64,7 @@ input[type=submit]:hover {
 	
 	
 /* Style inputs */
-  input[type=text], select, textarea {
+  input.contact[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -123,7 +123,7 @@ input[type=submit]:hover {
 	
 	<br>
 	<br>
-<div id="form" class="contact">
+<div id="form">
 <div class="container">
   <div style="text-align:center">
   </div>
@@ -134,11 +134,11 @@ input[type=submit]:hover {
     <div class="column">
       <form action="/action_page.php">
         <label for="fname">Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" class="contact" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Email</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your email..">
+        <input type="text" class="contact" id="lname" name="lastname" placeholder="Your email..">
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <textarea id="subject" class="contact" name="subject" placeholder="Write something.." style="height:170px"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
