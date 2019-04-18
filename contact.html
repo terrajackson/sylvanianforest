@@ -10,7 +10,69 @@
 <link rel="stylesheet" href="style/style.css"/>	
 <link rel="stylesheet" href="style/lists.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
 	
+	body {
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #45403E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #BD5229;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #5BCAFF;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+	
+	</style>
 <title>Contact</title>
 </head>
 
@@ -60,6 +122,29 @@
 	
 	<br>
 	<br>
+
+<div class="container">
+  <div style="text-align:center">
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="border" src="https://live.staticflickr.com/7809/47473101442_ab16b66cdb_z.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your email..">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+	
+	
 	
 </body>
 </html>
