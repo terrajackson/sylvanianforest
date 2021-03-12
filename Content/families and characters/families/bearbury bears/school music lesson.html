@@ -1,17 +1,19 @@
+
 <!doctype html>
 <html>
 <head>
   <link rel="icon" type="image/png" href="http://sylvanianforest.com/favicon.png"/>
 <meta charset="UTF-8">
-<meta name="description" content="Sylvanian Families World Parade">
-<meta name="keywords" content="Sylvanian Families, Calico Critters, world parade">
+<meta name="description" content="Sylvanian Families School Music Lesson">
+<meta name="keywords" content="Sylvanian Families, Calico Critters, bear, bears, bearbury, school, music, lesson">
 <meta name="author" content="Terra Jackson">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../../../../style/style.css">
-<link rel="stylesheet" href="../../../../style/lists.css">
+<link rel="stylesheet" href="../../../../style/sets.css">
+
 	
-<title>Sylvanian Families World Parade Series</title>
+<title>Sylvanian Families School Music Lesson</title>
 </head>
 
 <body>
@@ -52,64 +54,104 @@
   <li><a href="../../../../contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="#" onclick="javascript:history.go(-1);">Back</a></li>
 </ul>
+<div class="content">
+<header>
+  <h4>School Music Lesson</h4>
+</header>
 
-<div class="family">
+<section>
+  <nav>
+<p>
+	
+	Brand: Sylvanian Families
+    <br>
+	<br>
+    Countries: UK
+    <br>
+	<br>
+    Company: Epoch
+	<br>
+	<br>
+	Reference Number: 4415
+	
+	  </p>
+	  
+  </nav>
+  
+  <article>
+    <div class="slideshow-container">
 
-<h2 style="text-align: center">World Parade Series</h2>
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img class="border" src="https://live.staticflickr.com/65535/51028154511_ba0a15edf8_z.jpg">
+  <div class="text"></div>
+</div>
+		
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img class="border" src="https://live.staticflickr.com/65535/51027430233_d8351fa57e_z.jpg">
+  <div class="text"></div>
+</div>
+	
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img class="border" src="https://live.staticflickr.com/65535/51028255677_f2b3601f68_z.jpg">
+  <div class="text"></div>
 </div>
 
+
+</div>
 <br>
-<div style="text-align: center">
-	<img class="border" src="https://live.staticflickr.com/65535/49120611632_c923977cff_z.jpg">
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
 
 </div>
-	
-			<div class="group">
-		
-		<div class="new"></div> 
-		<h3 class="label">Series 1</h3>
-	   
-	   <div class="new"></div> 
-	</div> 
-	
-						<div class="group">
-   <a href="holland and scotland.html"><h3 class="section">Holland &amp; Scotland<br><br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
-	
-					<div class="group">
-   <a href="spain and arabia.html"><h3 class="section">Spain &amp; Arabia<br><br><br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
-	
-	
-						<div class="group">
-   <a href="hawaii and mexico.html"><h3 class="section">Hawaii &amp; Mexico<br><br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
-	
-	
-	
-		<div class="group">
-		
-		<div class="new"></div> 
-		<h3 class="label">Series 2</h3>
-	   
-	   <div class="new"></div> 
-	</div> 
-	
-					<div class="group">
-   <a href="russian and china.html"><h3 class="section">Russian &amp; China<br><br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
-	
-						<div class="group">
-   <a href="uk and brazil.html"><h3 class="section">UK &amp; Brazil<br><br><br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
 
-							<div class="group">
-   <a href="us and spain.html"><h3 class="section">US &amp; Spain<br><br><br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activenew", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activenew";
+}
+</script>
+
+  </article>
+</section>
+</div>
+<br>
+<br>	
 </body>
 </html>
+
+
+
 
 
 
