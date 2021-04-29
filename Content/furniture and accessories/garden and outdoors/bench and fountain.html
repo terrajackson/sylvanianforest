@@ -3,15 +3,16 @@
 <head>
   <link rel="icon" type="image/png" href="http://sylvanianforest.com/favicon.png"/>
 <meta charset="UTF-8">
-<meta name="description" content="Sylvanian Families Ships and Boats">
-<meta name="keywords" content="Sylvanian Families, Calico Critters, ships, boats, sea, river, ocean">
+<meta name="description" content="Sylvanian Families Bench and Fountain">
+<meta name="keywords" content="Sylvanian Families, Calico Critters, bench, fountain, garden, outdoor, furniture"
 <meta name="author" content="Terra Jackson">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../../../style/style.css">
-<link rel="stylesheet" href="../../../style/lists.css">
+<link rel="stylesheet" href="../../../style/sets.css">
+
 	
-<title>Sylvanian Families Ships &amp; Boats</title>
+<title>Sylvanian Families Bench and Garden</title>
 </head>
 
 <body>
@@ -52,41 +53,83 @@
   <li><a href="../../../contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="#" onclick="javascript:history.go(-1);">Back</a></li>
 </ul>
+<div class="content">
+<header>
+  <h4>Bench &amp; Garden</h4>
+</header>
 
-<div class="family">
+<section>
+  <nav>
+<p>
+	
+	Brand: Sylvanian Families
+	<br>
+	<br>
+    Country: UK
+    <br>
+	<br>
+    Company: Flair
+	<br>
+	<br>
+	Reference Number:  4535
 
-<h2 style="text-align: center">Ships &amp; Boats</h2>
+
+	
+	  </p>
+	  
+  </nav>
+  
+  <article>
+    <div class="slideshow-container">
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 1</div>
+  <img class="border" src="https://live.staticflickr.com/65535/51145249949_7a281e00b6_z.jpg">
+  <div class="text"></div>
 </div>
 	
 <br>
 
-<br>
-<div style="text-align: center">
-	<img class="border" src="https://live.staticflickr.com/65535/50619507892_c97dc73b9c_z.jpg">
-																							 
-																							 	
-
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
 </div>
-	
-			<div class="group">
-	<a href="../sea/canoe.html"><h3 class="section">Canoe Set<br><br><br><br><img src="../../../Images/Freya Icons/freya icon e.png"></h3></a></div>
-	
-	
-			<div class="group">
-	<a href="../../families and characters/families/mulberry raccoons/canoe.html"><h3 class="section">Canoe with Martha Mulberry<br><br><img src="../../../Images/Freya Icons/freya icon e.png"></h3></a></div>
-	
-		
-				<div class="group">
-	<a href="../../families and characters/families/sandy striped cats/rosies row boat.html"><h3 class="section">Rosie's Row Boat<br><br><br><img src="../../../Images/Freya Icons/freya icon e.png"></h3></a></div>
-					
-					<div class="group">
-	<a href="row boat.html"><h3 class="section">Row Boat<br><br><br><br><img src="../../../Images/Freya Icons/freya icon e.png"></h3></a></div>
 
-	
-	
-	</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activenew", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activenew";
+}
+</script>
+
+  </article>
+</section>
+</div>
+<br>
+<br>	
 </body>
 </html>
-
-
