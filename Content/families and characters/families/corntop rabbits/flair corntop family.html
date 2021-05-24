@@ -1,17 +1,19 @@
+
 <!doctype html>
 <html>
 <head>
   <link rel="icon" type="image/png" href="http://sylvanianforest.com/favicon.png"/>
 <meta charset="UTF-8">
-<meta name="description" content="Sylvanian Families Barker Golden Labrador Family">
-<meta name="keywords" content="Sylvanian Families, Calico Critters, dog, dogs, golden, labrador, labradors, barker">
+<meta name="description" content="Sylvanian Families Corntop Rabbit Family">
+<meta name="keywords" content="Sylvanian Families, Calico Critters, corntop, hoppinset, rabbit, rabbits, family">
 <meta name="author" content="Terra Jackson">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="../../../../style/style.css">	
-<link rel="stylesheet" href="../../../../style/lists.css">	
+<link rel="stylesheet" href="../../../../style/style.css">
+<link rel="stylesheet" href="../../../../style/sets.css">
+
 	
-<title>Sylvanian Families Barker Golden Labrador Family</title>
+<title>Sylvanian Families Corntop Rabbit Family</title>
 </head>
 
 <body>
@@ -41,7 +43,7 @@
   </tr>
 </table>
 <ul>
-  <li><a href="../../../../index.html"../../../../index.html"">Home</a></li>
+  <li><a href="../../../../index.html">Home</a></li>
   <li><a href="../../../../collection.html">Collection</a></li>
   <li><a href="/othercollections.html">Other</a></li>
   <li><a href="https://greenbearshire.com/" target="_blank">Blog</a></li>
@@ -52,61 +54,96 @@
   <li><a href="../../../../contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="#" onclick="javascript:history.go(-1);">Back</a></li>
 </ul>
+<div class="content">
+<header>
+  <h4>Corntop Rabbit Family</h4>
+</header>
 
-<div class="family">
+<section>
+  <nav>
+<p>
+	
+	Brand: Sylvanian Families
+    <br>
+	<br>
+    Countries: UK
+    <br>
+	<br>
+    Company: Flair
+	<br>
+	<br>
+	Reference Number: 4097
 
-<h2 style="text-align: center">Barker Golden Labrador Family</h2>
-</div>
-
-<br>
-<div style="text-align: center">
-	<img class="border" src="https://live.staticflickr.com/65535/32767504477_bbd2c7d318_z.jpg">
-
-</div>
+	
+	  </p>
+	  
+  </nav>
   
-				<div class="group">
-		
-		<div class="new"></div> 
-		<h3 class="label">Flair UK</h3>
-	   
-	   <div class="new"></div> 
-	</div>
-	
-	<div class="group">
-   <a href="barkerfamily.html"><h3 class="section">Barker Golden Labrador Family<br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>	
-	
-			<div class="group">
-   <a href="../osborne bears/francesca the fish fryer and sonny barker.html"><h3 class="section">Francesca the Fish Fryer &amp; Sonny<br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
-	
-		<div class="group">
-   <a href="../buckley deer/sylvanian games athletics.html"><h3 class="section">Sylvanian Games Athletics<br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>	
-	
-	
-	
-					<div class="group">
-		
-		<div class="new"></div> 
-		<h3 class="label">Calico Critters - International Playthings</h3>
-	   
-	   <div class="new"></div> 
-	</div>
-	
-	<div class="group">
-   <a href="cc yellow labs.html"><h3 class="section">Yellow Labrador Family<br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>	
-	
-		<div class="group">
-   <a href="cc yellow labs twins.html"><h3 class="section">Yellow Labrador Twins<br><br><img src="../../../../Images/Freya Icons/freya icon e.png"></h3></a>
-	</div>
-	
-	
-	
+  <article>
+    <div class="slideshow-container">
 
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img class="border" src="https://live.staticflickr.com/65535/51192553092_62b5c5b1fe_z.jpg">
+  <div class="text"></div>
+</div>
+		
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img class="border" src="https://live.staticflickr.com/65535/51193473868_322dff514a_z.jpg">
+  <div class="text"></div>
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activenew", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activenew";
+}
+</script>
+
+  </article>
+</section>
+</div>
+<br>
+<br>	
 </body>
 </html>
+
 
 
 
